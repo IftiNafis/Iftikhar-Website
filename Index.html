@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iftikhar - Personal Information </title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            transition: background-color 0.5s ease;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        header {
+            background-color: #343a40;
+            color: #ffffff;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        nav {
+            background-color: #212529;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ffc107;
+        }
+
+        .main {
+            padding: 4rem 0;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.5s ease, transform 0.5s ease;
+        }
+
+        .main:target {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #ffffff;
+            text-align: center;
+            padding: 1rem 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>IFTIKHAR AHMED</h1>
+            <p>Exploring Life</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <a href="#home">Home</a>
+            <a href="#family">Family Background</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <div id="home" class="main">
+        <div class="container">
+            <h2>Home</h2>
+            <p>Welcome to my personal website. Explore the sections above to learn more about me and my experiences.</p>
+        </div>
+    </div>
+
+    <div id="family" class="main">
+        <div class="container">
+            <h2>Family Background</h2>
+            <p>Myself <b>Iftikhar Ahmed</b>. I'm a student.<br> My father's name is <b>Rumel Ahmed</b>. He is a businessman. Mother's name is <b>Ayesha Sultana</b>. She is a housewife and I have a younger brother. Our family is joint family. So in our house, I have grandparents, uncles and aunts and cousins.</p>
+        </div>
+    </div>
+
+    <div id="gallery" class="main">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery-item">
+                <img src="image1.jpg" alt="Description of the image">
+                <p>Description of the image</p>
+            </div>
+            <div class="gallery-item">
+                <img src="image2.jpg" alt="Description of the image">
+                <p>Description of the image</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="main">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Email: iftikharahmednafis06@gmail.com</p>
+            <p>Phone: +8801304-344426 (Whatsapp)</p>
+            <p>Facebook: Iftikhar Ahmed</p>
+            <p>Instagram: ifti.nafis</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Iftikhar Ahmed. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
